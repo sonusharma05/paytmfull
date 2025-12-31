@@ -1,0 +1,1 @@
+export const key ="mongodb+srv://admin:admin@cluster0.ld2jq.mongodb.net/paytmapp"

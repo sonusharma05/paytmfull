@@ -1,8 +1,8 @@
 const mongoose= require("mongoose");
 const zod = require("zod")
+import { key } from "./key";
 
-
-mongoose.connect("mongodb+srv://admin:admin@cluster0.ld2jq.mongodb.net/paytmapp")
+mongoose.connect(key)
 
 const userSchema = mongoose.Schema({
     userName:String,
